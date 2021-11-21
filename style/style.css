@@ -1,0 +1,45 @@
+html{
+    background-color: lightsteelblue;
+    padding-top: 3%;
+}
+#form input, #form select, #form textarea{
+    border: 1px solid dodgerblue;
+    font-size: 11pt;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#fio, #email{
+    height: 25px;
+}
+#form{
+    font-style: normal;
+    font-family: sans-serif;
+
+    width: 285px;
+
+}
+#form fieldset{
+    border: 1px solid darkslategray;
+
+    align-content: center;
+    width: 200px;
+}
+#categoryReview{
+    width: 250px;
+}
+#review{
+    width: 250px;
+    height: 150px;
+}
+#fio, #email, #review, #categoryReview{
+    color: darkblue;
+    font-weight: 500 !important;
+}
+#fio:hover, #email:hover, #review:hover, #categoryReview:hover{
+    background-color: lightblue;
+}
+#doReview{
+    font-size: large !important;
+    cursor: pointer;
+}
